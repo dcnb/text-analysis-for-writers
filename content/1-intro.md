@@ -3,37 +3,20 @@ title: Intro
 nav: true
 ---
 
-# Introduction
+# Introduction to the Bags of Words, or, Don't Fear Word Clouds
 
-One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/){:target='_blank'}.
-It provides free static web hosting from any repository.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
+Wordclouds demonstrate the basic function of textual analysis quite succinctly. Every tool we'll look at today includes some type of word cloud. There are also many tools online that will produce words. 
 
-Many organizations are using GitHub to collaboratively create and publish public workshop websites. 
-For example: 
+[Wordle](http://www.wordle.net/) helped to make Word Clouds prominent but the technology it used to create the word clouds is no longer supported by most browsers. 
 
-- [Programming Historian](http://programminghistorian.org/)
-- [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), [Library Carpentry](https://librarycarpentry.org/)
-- this site!
+One online word cloud creator we often use is [TagCrowd.com](https://tagcrowd.com/). You can see these clouds in many of our digital collections to provide an overview of the collection and a browsing mechanism. 
 
-{% capture text %}Note:
-There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.{% endcapture %}
+{% include figure.html img="tagcloud-hjccc.png" alt="tag clowd from the Historical Japanese Ceramic Comparative Collection" caption="A word cloud from the <a href='https://www.lib.uidaho.edu/digital/hjccc/subjects.html'>Historical Japanese Ceramic Comparative Collection</a>" width="75%" %}
+
+## WORK TIME! 
+
+{% capture text %}
+Go to [TagCrowd.com](https://tagcrowd.com/) and visualize your own content or the <a href="../data/sonnets-text.txt">plain text version of the Shakespearean Sonnets</a> we've provied.
+{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
-# workshop-template-b
-
-`workshop-template-b` is a Jekyll project to create a simple workshop website, with a [Bootstrap](https://getbootstrap.com/){:target='_blank'} theme, designed for hosting on [gh-pages](https://pages.github.com/){:target='_blank'}.
-
-It works best for about 5 pages of instructions, plus index, all written in Markdown. 
-The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
-
-## Why?
-
-Rather than making slides for a workshop, why not make a website? 
-It's easier to write, access, share, and reuse. 
-GitHub and gh-pages makes this super easy.
-
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources){:target='_blank'} since anyone can easily fork and adapt!
