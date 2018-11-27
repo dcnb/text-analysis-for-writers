@@ -17,6 +17,15 @@ This workshop focuses on the use of textual analysis for examination of one's ow
 
 We will introduce you to several powerful but user-friendly textual analysis tools that will allow you to take a step back from your own work to see trends and patterns you may or may not have been aware of previously. 
 
+## Benefits to Writers
+
+- Ability to see "distant" view of one's own writing
+- Ability to see trends both unexpected and expected across a corpus of works
+- Uncover your tics!
+    - Do you use the word "dark" all the time?
+    - Are you writing about a certain type of person repeatedly? 
+- Decontextualize and regroup your writing
+    - Using the tools here and others, one can start to create unique groupings of material that may not have occured to the writer before.
 
 {% include toc.html %}
 
