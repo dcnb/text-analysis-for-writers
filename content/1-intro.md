@@ -11,12 +11,32 @@ Wordclouds demonstrate the basic function of textual analysis quite succinctly. 
 
 One online word cloud creator we often use is [TagCrowd.com](https://tagcrowd.com/). You can see these clouds in many of our digital collections to provide an overview of the collection and a browsing mechanism. 
 
-{% include figure.html img="tagcloud-hjccc.png" alt="tag clowd from the Historical Japanese Ceramic Comparative Collection" caption="A word cloud from the <a href='https://www.lib.uidaho.edu/digital/hjccc/subjects.html'>Historical Japanese Ceramic Comparative Collection</a>" width="75%" %}
+{% include figure.html img="tagcloud-hjccc.png" alt="tag clowd from the Historical Japanese Ceramic Comparative Collection" caption="A word cloud from the <a target='_blank' href='https://www.lib.uidaho.edu/digital/hjccc/subjects.html'>Historical Japanese Ceramic Comparative Collection</a>" width="75%" %}
 
 ## WORK TIME! 
 
 {% capture text %}
 Go to [TagCrowd.com](https://tagcrowd.com/) and visualize your own content or the <a href="../data/sonnets-text.txt">plain text version of the Shakespearean Sonnets</a> we've provied.
+{% endcapture %}
+{% include alert.md text=text color=secondary %}
+
+# Word Tree
+
+Word Trees help you track usage across a document and can uncover particularly interesting patterns connected to individual words. 
+
+Jason Davies' [Wordtree](https://www.jasondavies.com/wordtree/) is particularly useful for first visualizing a document. He provides a number of documents to start, including a couple Obama speeches and The Cat in the Hat.   
+
+{% include figure.html img="dylan.png" alt="Word Tree of Bob Dylan's Blowin' in the Wind" caption="<a target='_blank' href='https://www.jasondavies.com/wordtree/?source=blowin.in.the.wind.txt&prefix=How'>Word Tree of Bob Dylan's Blowin' in the Wind</a>"  %}
+
+You can paste in your own text as well.
+
+
+## WORK TIME! 
+
+{% capture text %}
+Go to [Wordtree](https://www.jasondavies.com/wordtree/) and visualize your own content or the <a href="../data/sonnets-text.txt">plain text version of the Shakespearean Sonnets</a> we've provied.
+
+Hold shift down and select different words within the document to explore various connections. 
 {% endcapture %}
 {% include alert.md text=text color=secondary %}
 

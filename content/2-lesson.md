@@ -108,7 +108,9 @@ One last thing to point out from the Summary tool (bottom left): the "Distinctiv
 ## WORK TIME!
 
 {% capture text %}
-Go to [Voyant Tools](https://voyant-tools.org/) and visualize your own content or use <a href="../data/sonnets.csv">the csv of the Shakespearean Sonnets</a> we've provied.
+Go to [Voyant Tools](https://voyant-tools.org/) and visualize your own content or open <a href="../data/sonnet=list-for-voyant.txt">a list of Shakespearean Sonnet URLS</a> we've provied.
+
+If you're having trouble loading the 
 {% endcapture %}
 {% include alert.md text=text color=secondary %}
 <br><br><br><br>

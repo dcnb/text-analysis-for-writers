@@ -19,9 +19,10 @@ In order to prepare your texts for computational analyses, you'll often need to 
 
 If you don't have text of your own, we've provided some here, using Shakespeare's Sonnets: 
 
-- [Shakespeare's Sonnets URLs in a CSV](/data/sonnets.csv)
-- [Shakespeare's Sonnets in a CSV](/data/sonnets-text.csv)
-- [Shakespeare's Sonnets in Plain Text](/data/sonnets-text.txt)
+- [Shakespeare's Sonnets URLs in a CSV](../data/sonnets.csv)
+- [Shakespeare's Sonnets in a CSV](../data/sonnets-text.csv)
+- [Shakespeare's Sonnets in Plain Text](../data/sonnets-text.txt)
+- [Shakespeare's Sonnet URLS in a list for Voyant](../data/sonnet-list-for-voyant.txt)
 
 
 # Text Editors, Get One
