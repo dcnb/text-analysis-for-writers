@@ -5,7 +5,7 @@ nav: true
 
 # [Overview Docs](https://www.overviewdocs.com)
 
-Overview Docs is a tool used primarily by journalists to visualize and analyze large corpora of texts. The site includes a few default text sets to get you started, but you can also use your own. 
+Overview Docs is a tool used primarily by journalists to visualize and analyze large corpus/corpora of texts. The site includes a few default text sets to get you started, but you can also use your own. 
 
 ## Get Started with Overview
 
