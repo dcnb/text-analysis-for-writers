@@ -6,7 +6,7 @@ layout: full
 
 # [Voyant Tools](https://voyant-tools.org/)
 
-Voyant Tools is an extremely powerful and modular online toolset for visualizing one or many documents. It works particularly well across a number of documents, and we will be exploring some of those capacities here. We will be adapting the [tutorial materials](https://voyant-tools.org/docs/#!/guide/tutorial) supplied by Voyant-Tools help pages: 
+Voyant Tools is an extremely powerful and modular online tool set for visualizing one or many documents. It works particularly well across a number of documents, and we will be exploring some of those capacities here. We will be adapting the [tutorial materials](https://voyant-tools.org/docs/#!/guide/tutorial) supplied by Voyant-Tools help pages: 
 
 We tend to view workshops on Voyant as serving two purposes:
 
@@ -104,7 +104,7 @@ One last thing to point out from the Summary tool (bottom left): the "Distinctiv
 
 <iframe src="https://voyant-tools.org/?corpus=austen&amp;view=summary" style="width: 90%; height: 300px;"></iframe>
  
-<br><br><br><br>
+<br><br>
 ## WORK TIME!
 
 {% capture text %}
@@ -113,7 +113,7 @@ Go to [Voyant Tools](https://voyant-tools.org/) and visualize your own content o
 If you're having trouble loading the 
 {% endcapture %}
 {% include alert.md text=text color=secondary %}
-<br><br><br><br>
+<br><br>
 
 
 
