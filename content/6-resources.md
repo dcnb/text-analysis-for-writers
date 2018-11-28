@@ -13,6 +13,7 @@ nav: true
 - [Best Text Editors for PC](https://mashtips.com/best-text-editors-for-pc/)
 - [Word Cloud + Topic Modelling](https://dhs.stanford.edu/algorithmic-literacy/using-word-clouds-for-topic-modeling-results/)
 - [Stemming and Lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)
+- [Data Science Toolkit](http://www.datasciencetoolkit.org/)
 {% endcapture %}
 {% include card.md text=text header="Resources Used for this Workshop" %}
 {% capture voyant-resources %}
