@@ -12,6 +12,7 @@ nav: true
 - [Top Ten Text Editors for Mac](https://beebom.com/best-text-editors-for-mac/)
 - [Best Text Editors for PC](https://mashtips.com/best-text-editors-for-pc/)
 - [Word Cloud + Topic Modelling](https://dhs.stanford.edu/algorithmic-literacy/using-word-clouds-for-topic-modeling-results/)
+- [Stemming and Lemmatization](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html)
 {% endcapture %}
 {% include card.md text=text header="Resources Used for this Workshop" %}
 {% capture voyant-resources %}
@@ -24,7 +25,7 @@ nav: true
 - [They Say](https://apidemo.theysay.io/)
 - [IBM Watson Natual Language Processing](https://natural-language-understanding-demo.ng.bluemix.net/)
 - [Open Calais Intelligent Tagging](http://www.opencalais.com/opencalais-demo/)
-- [Evan Williamson's Programming Historian Steps for Using APIs (like the above) with Open Refine](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine#example-3-advanced-apis)
+- [Evan Williamson's Programming Historian Steps](https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine#example-3-advanced-apis)
 {% endcapture %}
 {% include card.md text=sentiment header="Explore Sentiment Resources" %}
 </div>
@@ -34,10 +35,14 @@ Ted Underwood is a prominent scholarly figure in the textual analysis field. He 
 
 Here are a few blog posts worth reading: 
 
-- Uses of text by humanists
-- Word Clouds aren't 
+- [Seven Ways Humanists are Using Computers to Understand Text](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/)
+- [Word Clouds Are Amazing](https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/)
 
-And here are a couple of larger projects: 
+And here are a couple of articles:
+
+- [The Quiet Transformations of Literary Studies: What Thirteen Thousand Scholars Could Tell Us](https://www.ideals.illinois.edu/handle/2142/49323)
+- [How Quickly Do Literary Standards Change?](https://figshare.com/articles/How_Quickly_Do_Literary_Standards_Change_/1418394)
+    - and the Github Repository informing this work: [paceofchange](https://github.com/tedunderwood/paceofchange)
 {% endcapture %}
 {% include card.md text=ted header="Saint Ted" img="Underwood-sq.jpg" %}
 
